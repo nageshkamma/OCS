@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OCSERPShopify" verbose="0">
+	<parameter name="browser" value="chrome">
+	</parameter> 
+	<test name="OCS__Shopify_RegressionSuite" preserve-order="true">
+	
+	    	<parameter name="CurrentApplication" value="OCSERPShopify"></parameter>
+		<classes>	
+		     <!-- OCS -->			
+			   <class name="com.OCSShopify.tests.OCSShopify_SalesOrder"/>
+			     <class name="com.OCSShopify.tests.OCSD365_SalesOrder"/>
+			 <class name="com.OCSShopify.tests.OCSD365_PurchaseOrder"/> 
+ 		</classes>	
+	</test>	
+	
+	
+	
+	
+	
+</suite> 

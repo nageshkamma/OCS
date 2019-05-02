@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OCSERPShopify" duration-ms="957988" started-at="2019-04-29T13:19:56Z" finished-at="2019-04-29T13:35:54Z">
+    <groups>
+    </groups>
+    <test name="OCS__Shopify_RegressionSuite" duration-ms="957988" started-at="2019-04-29T13:19:56Z" finished-at="2019-04-29T13:35:54Z">
+      <class name="com.OCSShopify.tests.OCSD365_SalesOrder">
+        <test-method status="PASS" signature="first(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_SalesOrder@33f88ab]" name="first" is-config="true" duration-ms="1" started-at="2019-04-29T18:54:14Z" finished-at="2019-04-29T18:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_SalesOrder@33f88ab]" name="reportHeader" is-config="true" duration-ms="9572" started-at="2019-04-29T18:54:14Z" finished-at="2019-04-29T18:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OCSShopify.tests.OCSD365_SalesOrder.OCSShopify_SalesOrder() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="OCSShopify_SalesOrder()[pri:0, instance:com.OCSShopify.tests.OCSD365_SalesOrder@33f88ab]" name="OCSShopify_SalesOrder" duration-ms="226307" started-at="2019-04-29T18:54:24Z" finished-at="2019-04-29T18:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OCSShopify_SalesOrder -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_SalesOrder@33f88ab]" name="tearDown" is-config="true" duration-ms="6301" started-at="2019-04-29T18:58:10Z" finished-at="2019-04-29T18:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_SalesOrder@33f88ab]" name="close" is-config="true" duration-ms="0" started-at="2019-04-29T18:58:17Z" finished-at="2019-04-29T18:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.OCSShopify.tests.OCSD365_SalesOrder -->
+      <class name="com.OCSShopify.tests.OCSShopify_SalesOrder">
+        <test-method status="PASS" signature="first(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSShopify_SalesOrder@27a8c74e]" name="first" is-config="true" duration-ms="0" started-at="2019-04-29T18:49:56Z" finished-at="2019-04-29T18:49:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSShopify_SalesOrder@27a8c74e]" name="reportHeader" is-config="true" duration-ms="10081" started-at="2019-04-29T18:49:56Z" finished-at="2019-04-29T18:50:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OCSShopify.tests.OCSShopify_SalesOrder.OCSShopify_SalesOrder() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="OCSShopify_SalesOrder()[pri:0, instance:com.OCSShopify.tests.OCSShopify_SalesOrder@27a8c74e]" name="OCSShopify_SalesOrder" duration-ms="241530" started-at="2019-04-29T18:50:06Z" finished-at="2019-04-29T18:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OCSShopify_SalesOrder -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSShopify_SalesOrder@27a8c74e]" name="tearDown" is-config="true" duration-ms="6453" started-at="2019-04-29T18:54:08Z" finished-at="2019-04-29T18:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSShopify_SalesOrder@27a8c74e]" name="close" is-config="true" duration-ms="0" started-at="2019-04-29T18:54:14Z" finished-at="2019-04-29T18:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.OCSShopify.tests.OCSShopify_SalesOrder -->
+      <class name="com.OCSShopify.tests.OCSD365_PurchaseOrder">
+        <test-method status="PASS" signature="first(org.testng.ITestContext)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="first" is-config="true" duration-ms="203" started-at="2019-04-29T18:49:56Z" finished-at="2019-04-29T18:49:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="startTest" is-config="true" duration-ms="1" started-at="2019-04-29T18:49:56Z" finished-at="2019-04-29T18:49:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="first(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="first" is-config="true" duration-ms="1" started-at="2019-04-29T18:58:17Z" finished-at="2019-04-29T18:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="reportHeader" is-config="true" duration-ms="9431" started-at="2019-04-29T18:58:17Z" finished-at="2019-04-29T18:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OCSShopify.tests.OCSD365_PurchaseOrder.OCSShopify_SalesOrder() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="OCSShopify_SalesOrder()[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="OCSShopify_SalesOrder" duration-ms="440252" started-at="2019-04-29T18:58:26Z" finished-at="2019-04-29T19:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OCSShopify_SalesOrder -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="tearDown" is-config="true" duration-ms="6515" started-at="2019-04-29T19:05:46Z" finished-at="2019-04-29T19:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close(java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="close" is-config="true" duration-ms="0" started-at="2019-04-29T19:05:53Z" finished-at="2019-04-29T19:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="closeTest" is-config="true" duration-ms="1527" started-at="2019-04-29T19:05:53Z" finished-at="2019-04-29T19:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.OCSShopify.tests.OCSD365_PurchaseOrder@5f282abb]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-04-29T19:05:54Z" finished-at="2019-04-29T19:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42bc14c1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OCSShopify.tests.OCSD365_PurchaseOrder -->
+    </test> <!-- OCS__Shopify_RegressionSuite -->
+  </suite> <!-- OCSERPShopify -->
+</testng-results>
